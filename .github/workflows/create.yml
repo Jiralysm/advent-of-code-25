@@ -2,7 +2,7 @@ name: advent-of-code-day
 
 on:
   schedule:
-    - cron: "45 5 1-25 12 *"
+    - cron: "45 5 1-12 12 *"
   workflow_dispatch:
 
 permissions:
