@@ -1,6 +1,20 @@
+import axios from "axios"
 import chalk from "chalk"
+require("dotenv").config()
 
-// write final answer with full metadata
+export const downloadInput = async (year: string, day: string): Promise<string> => {
+  const url = `https://adventofcode.com/${year}/day/${day}/input`
+
+  const res = await axios.get(url, {
+    headers: {
+      Cookie: `session=${process.env.SESSION_COOKIE}`
+    },
+    responseType: "text",
+    validateStatus: () => true
+  })
+
+  return res.data as string
+}
 export const writeAnswer = (value: unknown, url: string) => {
   const full = url.replace("file://", "")
   const parts = full.split("/")
@@ -36,7 +50,7 @@ export const get = (g: string[], x: number, y: number) =>
   g[y]?.[x] ?? null
 
 export const neighbors4 = (x: number, y: number) =>
-  [[x+1,y],[x-1,y],[x,y+1],[x,y-1]]
+  [[x + 1, y], [x - 1, y], [x, y + 1], [x, y - 1]]
 
 export const time = <T>(label: string, fn: () => T) => {
   const t = performance.now()

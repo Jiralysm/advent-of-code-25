@@ -1,7 +1,7 @@
 // Advent of Code 2025 - Day 1, Part 2: Secret Entrance
 // https://adventofcode.com/2025/day/1
 
-import { writeAnswer, readInput } from "../functions"
+import { writeAnswer, readInput } from "../helpers/functions"
 const s = { p: 50, h: 0 }
 
 for (const line of await readInput(import.meta.url)) {

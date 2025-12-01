@@ -1,0 +1,31 @@
+name: create new day for aoc
+
+on:
+  schedule:
+   - cron: "1 5 1-12 12 *"
+  workflow_dispatch:
+
+jobs:
+  make-day:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: checkout
+        uses: actions/checkout@v4
+
+      - name: bun
+        uses: oven-sh/setup-bun@v1
+
+      - name: pull env
+        run: echo "SESSION_COOKIE=${{ secrets.SESSION_COOKIE }}" >> $GITHUB_ENV
+
+      - name: run script
+        run: bun helpers/newDay.ts $(date +%-d)
+
+      - name: commit
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github"
+          git add .
+          git commit -m "aoc day $(date +%-d)"
+          git push

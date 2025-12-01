@@ -1,7 +1,9 @@
 #!/usr/bin/env bun
-// create a new day's folder and template files for Advent of Code 2025 challenges
+// create a new day's folder with input and part files
 
 import { mkdir, writeFile } from "node:fs/promises"
+import { downloadInput } from "./functions"
+import "dotenv/config"
 
 const day = process.argv[2]
 if (!day) {
@@ -13,7 +15,8 @@ const d = day.padStart(2, "0")
 const dir = `./${d}`
 
 await mkdir(dir, { recursive: true })
-await writeFile(`${dir}/${d}.in`, "")
+const input = await downloadInput("2025", day)
+await writeFile(`${dir}/${d}.in`, input.trim())
 
 const part1 =
 `// Advent of Code 2025, Day ${d}, Part 1: Name
