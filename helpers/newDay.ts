@@ -1,5 +1,5 @@
 #!/usr/bin/env bun
-// create a new day's folder and template files
+// create a new day's folder and template files for Advent of Code 2025
 
 import { mkdir, writeFile } from "node:fs/promises"
 
