@@ -15,8 +15,8 @@ Each day consists of two puzzles. To complete the challenge, you must solve all 
 
 Install [Bun](https://bun.sh), then run any part file directly:
 
-bun 01/part1.ts
-bun 01/part2.ts
+```typescript
+bun 01/part1.ts```
 
 Each day folder includes part files and an input file. The scripts load input automatically and print the formatted answer.
 
