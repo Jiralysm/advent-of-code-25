@@ -15,6 +15,7 @@ export const downloadInput = async (year: string, day: string): Promise<string> 
 
   return res.data as string
 }
+
 export const writeAnswer = (value: unknown, url: string) => {
   const full = url.replace("file://", "")
   const parts = full.split("/")

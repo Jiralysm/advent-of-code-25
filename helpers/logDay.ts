@@ -1,5 +1,4 @@
 #!/usr/bin/env bun
-// automatically log a completed day's info to README.md
 
 import { mkdir, writeFile, readFile } from "node:fs/promises"
 

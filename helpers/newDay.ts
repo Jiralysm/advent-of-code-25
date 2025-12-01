@@ -13,7 +13,6 @@ if (!day) {
 const d = day.padStart(2, "0")
 const dir = `./${d}`
 
-// check existence
 try {
   await stat(dir)
   console.log(`day ${d} already exists, skipping`)
