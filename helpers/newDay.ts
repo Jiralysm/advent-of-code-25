@@ -1,7 +1,6 @@
 #!/usr/bin/env bun
-// create a new day's folder with input and part files
 
-import { mkdir, writeFile } from "node:fs/promises"
+import { mkdir, writeFile, stat } from "node:fs/promises"
 import { downloadInput } from "./functions"
 import "dotenv/config"
 
@@ -14,7 +13,15 @@ if (!day) {
 const d = day.padStart(2, "0")
 const dir = `./${d}`
 
+// check existence
+try {
+  await stat(dir)
+  console.log(`day ${d} already exists, skipping`)
+  process.exit(0)
+} catch {}
+
 await mkdir(dir, { recursive: true })
+
 const input = await downloadInput("2025", day)
 await writeFile(`${dir}/${d}.in`, input.trim())
 
