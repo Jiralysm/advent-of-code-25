@@ -29,7 +29,7 @@ const part1 =
 `// Advent of Code 2025, Day ${d}, Part 1: Name
 // https://adventofcode.com/2025/day/${+d}
 
-import { readInput, writeAnswer } from "../functions"
+import { readInput, writeAnswer } from "../helpers/functions"
 const s = {}
 
 for (const line of await readInput(import.meta.url)) {
@@ -43,7 +43,7 @@ const part2 =
 `// Advent of Code 2025, Day ${d}, Part 2: Name
 // https://adventofcode.com/2025/day/${+d}
 
-import { readInput, writeAnswer } from "../functions"
+import { readInput, writeAnswer } from "../helpers/functions"
 const s = {}
 
 for (const line of await readInput(import.meta.url)) {
