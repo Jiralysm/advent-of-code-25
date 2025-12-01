@@ -24,5 +24,5 @@ jobs:
           git config user.name "kie.ac"
           git config user.email "automation@kie.ac"
           git add .
-          git commit -m "aoc day $(date +%-d)"
+          git commit -m "automation: create day $(date +%-d)"
           git push
