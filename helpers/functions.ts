@@ -7,7 +7,8 @@ export const downloadInput = async (year: string, day: string): Promise<string> 
 
   const res = await axios.get(url, {
     headers: {
-      Cookie: `session=${process.env.SESSION_COOKIE}`
+      Cookie: `session=${process.env.SESSION_COOKIE}`,
+      "User-Agent": "github.com/Jiralysm/advent-of-code25 - github@kie.ac"
     },
     responseType: "text",
     validateStatus: () => true
