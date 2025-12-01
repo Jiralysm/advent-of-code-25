@@ -1,5 +1,6 @@
 ![TypeScript](https://shields.io/badge/TypeScript-3178C6?logo=TypeScript&logoColor=FFF&style=flat-square)
 # Advent of Code 2025 🎄
+## It's the most wonderful time of the year.. 
 
 Welcome to my Advent of Code solutions for 2025. I’m using this repository to track my progress, test ideas, and keep my approaches consistent across the month. Each day has its own folder, input file, and TypeScript solutions. I run everything with Bun for fast iteration and simple tooling. If you’re working through the puzzles too, you can compare notes or borrow anything here that helps!
 
@@ -22,4 +23,4 @@ Each day folder includes part files and an input file. The scripts load input au
 
 ---
 
-I also keep a blog displaying my thoughts, views and opinions on each day's problem and how I went about solving it. You can find that [here](https://kie.ac/blog/advent)
+I also keep a blog displaying my thoughts, views and opinions on each day's problem and how I went about solving it. You can find that [here](https://kie.ac/blog/advent)! 
