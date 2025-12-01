@@ -3,8 +3,8 @@
 import { mkdir, writeFile, readFile } from "node:fs/promises"
 
 const dayNum = process.argv[2]
-const dayName = process.argv[3]
-const stars = process.argv[4]
+const dayName = process.argv.slice(3, process.argv.length - 1).join(" ")
+const stars = process.argv[process.argv.length - 1]
 
 if (!dayNum || !dayName || !stars) {
   console.log("usage: bun logDay <day_num> <day_name> <stars_count>")

@@ -29,4 +29,4 @@ I also keep a blog displaying my thoughts, views and opinions on each day's prob
 
 | Exercise Description | Link | Stars |
 | --- | --- | --- |
-| [Day 01: Name](https://adventofcode.com/2025/day/1) | [2025/01](https://github.com/Jiralysm/advent-of-code-25/tree/main/01) | ⭐⭐ |
+| [Day 01: Secret Entrance](https://adventofcode.com/2025/day/1) | [2025/01](https://github.com/Jiralysm/advent-of-code-25/tree/main/01) | ⭐⭐ |
