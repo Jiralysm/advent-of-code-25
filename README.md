@@ -24,3 +24,9 @@ Each day folder includes part files and an input file. The scripts load input au
 ---
 
 I also keep a blog displaying my thoughts, views and opinions on each day's problem and how I went about solving it. You can find that [here](https://kie.ac/blog/advent)! 
+
+---
+
+  | Exercise Description | Link | Stars
+  |:---|:---|
+  | [Day 1: Secret Entrance](https://adventofcode.com/2025/day/1) | [2025/01](https://github.com/Jiralysm/advent-of-code-25/tree/main/01) | ⭐⭐ | 
