@@ -1,4 +1,5 @@
 #!/usr/bin/env bun
+// create a new day's folder and template files
 
 import { mkdir, writeFile } from "node:fs/promises"
 
