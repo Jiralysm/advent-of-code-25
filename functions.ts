@@ -44,6 +44,3 @@ export const time = <T>(label: string, fn: () => T) => {
   console.log(label, (performance.now() - t).toFixed(2) + "ms")
   return v
 }
-
-export const filePathFromMeta = (url: string, ext: string) =>
-  url.replace(".ts", ext).replace("file://", "")
