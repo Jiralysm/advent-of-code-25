@@ -1,4 +1,4 @@
-![TypeScript](https://shields.io/badge/TypeScript-3178C6?logo=TypeScript&logoColor=FFF&style=flat-square)
+![TypeScript](https://shields.io/badge/TypeScript-3178C6?logo=TypeScript&logoColor=FFF&style=flat-square) ![Shield](https://img.shields.io/badge/2025-%E2%AD%90%20%204-gray?logo=adventofcode&labelColor=8a2be2)
 # Advent of Code 2025 🎄
 
 Welcome to my AoC 2025 solutions. I’m using this repository to follow my journey, try out ideas and keep my strategies coherent throughout the month. Every day has a folder, input file and solutions in TypeScript. I use Bun for quick iteration and low friction tools. If you are solving the puzzles yourself, you’ll have an opportunity to compare notes or snag anything here that may help!
