@@ -3,7 +3,8 @@
     "chalk": "^5.6.2"
   },
   "scripts": {
-    "newday": "bun newday.ts"
+    "newday": "bun newday.ts",
+    "logday": "bun logday.ts"
   },
   "devDependencies": {
     "@types/node": "^24.10.1",
