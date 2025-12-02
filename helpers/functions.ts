@@ -39,8 +39,17 @@ export const writeAnswer = (value: unknown, url: string) => {
   )
 }
 
-export const readInput = async (url: string) =>
-  (await Bun.file(url.replace(".ts", ".in")).text()).trim().split(/\r?\n/)
+export const readInput = async (url: string) => {
+  let path = url.replace("file://", "")
+  const parts = path.split("/")
+  const day = parts[parts.length - 2]
+  parts[parts.length - 1] = day + ".in"
+  path = parts.join("/")
+
+  if (path.startsWith("/")) path = path.slice(1)
+
+  return (await Bun.file(path).text()).trim().split(/\r?\n/)
+}
 
 export const toNumbers = (a: string[]) => a.map(Number)
 
