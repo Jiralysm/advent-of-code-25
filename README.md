@@ -1,4 +1,4 @@
-![TypeScript](https://shields.io/badge/TypeScript-3178C6?logo=TypeScript&logoColor=FFF&style=flat-square) ![Shield](https://img.shields.io/badge/2025-%E2%AD%90%20%2016-gray?logo=adventofcode&labelColor=8a2be2)
+![TypeScript](https://shields.io/badge/TypeScript-3178C6?logo=TypeScript&logoColor=FFF&style=flat-square) ![Shield](https://img.shields.io/badge/2025-%E2%AD%90%20%2018-gray?logo=adventofcode&labelColor=8a2be2)
 # Advent of Code 2025 🎄
 
 Welcome to my AoC 2025 solutions. I’m using this repository to follow my journey, try out ideas and keep my strategies coherent throughout the month. Every day has a folder, input file and solutions in TypeScript. I use Bun for quick iteration and low friction tools. If you are solving the puzzles yourself, you’ll have an opportunity to compare notes or snag anything here that may help!
@@ -35,5 +35,6 @@ I also keep a blog displaying my thoughts, views and opinions on each day's prob
 | [Day 04: Printing Department](https://adventofcode.com/2025/day/4) | [2025/04](https://github.com/Jiralysm/advent-of-code-25/tree/main/04) | ⭐⭐ |
 | [Day 05: Cafeteria](https://adventofcode.com/2025/day/5) | [2025/05](https://github.com/Jiralysm/advent-of-code-25/tree/main/05) | ⭐⭐ |
 | [Day 06: Trash Compactor](https://adventofcode.com/2025/day/6) | [2025/06](https://github.com/Jiralysm/advent-of-code-25/tree/main/06) | ⭐⭐ |
+| [Day 07: Laboratories](https://adventofcode.com/2025/day/7) | [2025/07](https://github.com/Jiralysm/advent-of-code-25/tree/main/07) | ⭐⭐ |
 | [Day 08: Playground](https://adventofcode.com/2025/day/8) | [2025/08](https://github.com/Jiralysm/advent-of-code-25/tree/main/08) | ⭐⭐ |
 | [Day 09: Movie Theater](https://adventofcode.com/2025/day/9) | [2025/09](https://github.com/Jiralysm/advent-of-code-25/tree/main/09) | ⭐⭐ |
