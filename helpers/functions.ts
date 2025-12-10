@@ -24,7 +24,7 @@ export const writeAnswer = (value: unknown, url: string) => {
   const sub = parts.pop()!
   const folder = parts.pop()!
 
-  const year = folder
+  const year = folder.replace("advent-of-code-", "20")
   const day = sub
   const part = file.replace(".ts", "").replace("part", "")
 
