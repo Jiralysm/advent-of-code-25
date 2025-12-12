@@ -1,4 +1,4 @@
-![TypeScript](https://shields.io/badge/TypeScript-3178C6?logo=TypeScript&logoColor=FFF&style=flat-square) ![Shield](https://img.shields.io/badge/2025-%E2%AD%90%20%2022-gray?logo=adventofcode&labelColor=8a2be2)
+![TypeScript](https://shields.io/badge/TypeScript-3178C6?logo=TypeScript&logoColor=FFF&style=flat-square) ![Shield](https://img.shields.io/badge/2025-%E2%AD%90%20%2024-gray?logo=adventofcode&labelColor=8a2be2)
 # Advent of Code 2025 🎄
 
 Welcome to my AoC 2025 solutions. I’m using this repository to follow my journey, try out ideas and keep my strategies coherent throughout the month. Every day has a folder, input file and solutions in TypeScript. I use Bun for quick iteration and low friction tools. If you are solving the puzzles yourself, you’ll have an opportunity to compare notes or snag anything here that may help!
@@ -40,3 +40,4 @@ I also keep a blog displaying my thoughts, views and opinions on each day's prob
 | [Day 09: Movie Theater](https://adventofcode.com/2025/day/9) | [2025/09](https://github.com/Jiralysm/advent-of-code-25/tree/main/09) | ⭐⭐ |
 | [Day 10: Factory](https://adventofcode.com/2025/day/10) | [2025/10](https://github.com/Jiralysm/advent-of-code-25/tree/main/10) | ⭐⭐ |
 | [Day 11: Reactor](https://adventofcode.com/2025/day/11) | [2025/11](https://github.com/Jiralysm/advent-of-code-25/tree/main/11) | ⭐⭐ |
+| [Day 12: Christmas Tree Farm](https://adventofcode.com/2025/day/12) | [2025/12](https://github.com/Jiralysm/advent-of-code-25/tree/main/12) | ⭐⭐ |
